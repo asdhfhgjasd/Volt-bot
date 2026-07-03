@@ -357,7 +357,7 @@ client.on("messageCreate", async (message) => {
 // ─── TICKET SUPPORT PANEL ──────────────────────────────────────────────────────
 async function sendSupportPanel(channel) {
   const embed = new EmbedBuilder()
-    .setTitle("Law Tweaks — Support")
+    .setTitle("Volt Tweaks — Support")
     .setDescription("Welcome. If you require assistance, please select the appropriate category below to open a private support ticket.\n\nA member of our team will be with you shortly.")
     .addFields(
       { name: "🛒 Make a Purchase", value: "Buy products & complete your order", inline: true },
@@ -365,7 +365,7 @@ async function sendSupportPanel(channel) {
       { name: "🚨 Report Member", value: "Report misconduct or rule violations", inline: true },
       { name: "💬 General Support", value: "All other enquiries & questions", inline: true }
     )
-    .setFooter({ text: "Law Tweaks • Support System" })
+    .setFooter({ text: "Volt Tweaks • Support System" })
     .setColor(0xe74c3c)
     .setTimestamp();
 
