@@ -407,7 +407,7 @@ client.on("interactionCreate", async (interaction) => {
         .setTitle(`${selected.emoji} ${selected.label}`)
         .setDescription(`Hello ${member}, thank you for opening a ticket.\n\n**Category:** ${selected.label}\n**Description:** ${selected.description}\n\nA member of our team will be with you shortly.`)
         .setColor(0xe74c3c)
-        .setFooter({ text: "Law Tweaks • Support System" })
+        .setFooter({ text: "Volt Tweaks • Support System" })
         .setTimestamp();
 
       const closeButton = new ButtonBuilder().setCustomId(`volt_close_${ticketChannel.id}`).setLabel("Close Ticket").setEmoji("🔒").setStyle(ButtonStyle.Danger);
